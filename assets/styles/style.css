@@ -1,0 +1,52 @@
+article {
+    
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 1px black solid;
+    width: 66%;
+    justify-content: flex-end;
+    margin-left: 10px;
+    /* background-color: #9DA9A0; */
+}
+#title {
+    text-align: center;
+    background-color: #50514F;
+    padding: 20px 0;
+}
+#viewArea {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px;
+    
+}
+#locationArea {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 33%;
+    border: 1px black solid;
+   background-color: #EFF9E5;
+}
+#searchBox {
+    margin: 10px 20px;
+    font-size: larger;
+    padding: 10px;
+}
+.location {
+    border: 1px grey solid;
+    margin: 5px 10px;
+    padding: 5px 5px;
+}
+#cityArea {
+    border: 1px black solid;
+    flex-grow: 1;
+    margin: 10px;
+    
+}
+#forcastArea {
+    border: 1px black solid;
+    order: 1;
+    flex-grow: 1;
+    margin: 10px;
+}
