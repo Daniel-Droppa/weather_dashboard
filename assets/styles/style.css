@@ -4,7 +4,7 @@ article {
     flex-direction: column;
     height: 500px;
     border: 1px black solid;
-    width: 66%;
+    width: 75%;
     justify-content: flex-end;
     margin-left: 10px;
     /* background-color: #9DA9A0; */
@@ -24,7 +24,7 @@ article {
     display: flex;
     flex-direction: column;
     height: 500px;
-    width: 33%;
+    width: 25%;
     border: 1px black solid;
    background-color: #EFF9E5;
 }
@@ -32,6 +32,10 @@ article {
     margin: 10px 20px;
     font-size: larger;
     padding: 10px;
+    flex-shrink: 2;
+}
+#searchBtn{
+    flex-shrink: 1;
 }
 .location {
     border: 1px grey solid;
