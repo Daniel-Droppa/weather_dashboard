@@ -7,12 +7,14 @@ article {
     width: 75%;
     justify-content: flex-end;
     margin-left: 10px;
-    /* background-color: #9DA9A0; */
+    border-radius: 5px;
+    background-color: #9DA9A0;
 }
 #title {
     text-align: center;
     background-color: #50514F;
     padding: 20px 0;
+    border-radius: 5px;
 }
 #viewArea {
     display: flex;
@@ -27,12 +29,14 @@ article {
     width: 25%;
     border: 1px black solid;
    background-color: #EFF9E5;
+   border-radius: 5px;
 }
 #searchBox {
     margin: 10px 20px;
     font-size: larger;
     padding: 10px;
     flex-shrink: 2;
+    border-radius: 5px;
 }
 #searchBtn{
     flex-shrink: 1;
@@ -43,13 +47,15 @@ article {
     padding: 5px 5px;
 }
 #cityArea {
-    border: 1px black solid;
-    flex-grow: 1;
+    /* border: 1px black solid; */
+    /* flex-grow: 1; */
     margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
     
 }
 #forcastArea {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     order: 1;
     flex-grow: 1;
     margin: 10px;
